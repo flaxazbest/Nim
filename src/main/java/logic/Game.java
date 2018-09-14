@@ -105,7 +105,7 @@ public class Game {
     }
 
     public static void main(String[] args) {
-        Game game = new Game(Level.HARD);
+        Game game = new Game(Level.EASY);
         game.show();
         while (!game.isOver()) {
             game.userMove();
